@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+   
+  
+    
+}
+
+body{
+    
+    font-size:25px;
+    /* font-family: "poppins", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal; */
+    /* background-color: */
+    background-color: #f0f4f8;
+   
+    
+
+    
+
+
+}
+.header{
+    display:flex;
+    justify-content:center;
+    padding:15px;
+    font-size:30px;
+    background-color:#031540;
+
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+
+}
+#he1{
+    position: sticky;
+    top:0px;
+}
+
+a{
+    text-decoration: none;
+    padding:20px;
+    color:white;
+
+}
+a:hover {
+    color: #7b728d; 
+    text-decoration: underline;
+}
+
+.himg{
+    padding-top:200px;
+    padding-right:300px
+    
+}
+
+.home{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.home>p{
+    padding-top:250px;
+    padding-left:50px;
+
+
+
+}
+.about{
+    margin-top:300px;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    
+}
+.about>h2{
+    text-align:center;
+    padding-top:100px;
+    font-weight: bolder;
+    font-size:50px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(8, 72, 75);
+
+}
+.about>p{
+    text-align: justify;
+
+}
+
+.edutn{
+    margin-top:250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.edutn>h2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(8, 72, 75);
+
+}
+
+#p1{
+    border:5px solid #f4f4f4;
+    height:150px;
+    width:750px;
+    padding:20px;
+    border-radius:4px; 
+    
+     background-color: #f4f4f4;
+
+}
+.pf2{
+    margin-top:350px;
+    /* padding:20px; */
+
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding:20px;
+    
+
+}
+.skills>h2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(8, 72, 75);
+    padding:20px;
+
+
+    
+}
+.skill1{
+    margin-top:100px;
+
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.skill1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.project>h2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(8, 72, 75);
+    padding:20px;
+
+
+}
+.project ol{
+    padding:40px;
+
+    
+}
+.contact{
+    /* background-color:#031540;
+    color:white; */
+
+
+}
+.contact>h2{
+    padding:20px;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  color:rgb(8, 72, 75);
+
+
+
+}
+.contact>p{
+    text-align:center;
+
+}
+
+.c1{
+    text-align:center;
+
+}
+.b1{
+    /* background-color: black;
+    padding:10px;
+    border-radius:6px; */
+    background-color: #13456b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.b1>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold
+}
+.b1:hover {
+    background-color: #052544;
+}
+#hm, #abt, #e, #sk, #pro ,#con{
+    scroll-margin-top: 200px; 
+}
+
+
+
+
+
